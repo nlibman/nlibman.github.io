@@ -210,6 +210,25 @@ section h2 {
     line-height: 1.6;
 }
 
+.cta-alternative {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.wyzant-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.wyzant-link:hover {
+    color: #2980b9;
+    border-bottom-color: #2980b9;
+}
+
 .contact-info {
     margin-top: 1.5rem;
     padding: 1.5rem;
