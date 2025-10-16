@@ -105,32 +105,31 @@ section h2 {
 
 .credentials h2 {
     border: none;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     color: #2c3e50;
 }
 
-.phd {
-    color: #e74c3c;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+/* Credential badges */
+.credential-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
-.experience {
-    color: #7f8c8d;
-    font-style: italic;
+.badge {
+    background: #eef6fd;
+    color: #1b4b7c;
+    border: 1px solid #cfe4f9;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
-.background {
-    color: #27ae60;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.research {
-    color: #8e44ad;
-    font-weight: 500;
-    font-style: italic;
+/* Remove old per-item styles */
+.phd, .experience, .background, .research {
+    display: none;
 }
 
 /* Services */
@@ -267,6 +266,10 @@ footer {
     
     .container {
         padding: 0 15px;
+    }
+
+    .credential-badges {
+        justify-content: center;
     }
 }
 
