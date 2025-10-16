@@ -288,3 +288,47 @@ ul {
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
 } 
+
+/* Navbar */
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.navbar .nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.75rem 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .brand {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+    background: #eef6fd;
+    color: #1b4b7c;
+}
+
+/* Space header below navbar */
+header {
+    margin-top: 0;
+} 
