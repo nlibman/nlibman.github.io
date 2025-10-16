@@ -332,3 +332,14 @@ ul {
 header {
     margin-top: 0;
 } 
+
+.bio {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.bio p + p {
+    margin-top: 0.75rem;
+} 
